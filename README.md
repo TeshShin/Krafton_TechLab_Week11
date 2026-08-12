@@ -9,7 +9,7 @@
 | **메모리 누수** | 스키닝 성능 측정용 **GPU 쿼리 링버퍼**가 원인이던 누수 해결 |
 | **뷰어 다중 창** | 뷰어 간 z-order와 레이어 순서 정리, 다중 뷰어에서의 마우스·피킹, 뷰포트를 `ImGui::Image` 방식으로 전환, 좌우 패널 크기 조절 |
 | **크래시 대응** | `main`을 감싸 모든 C++ 예외를 캐치, **미니덤프** 작성, 랜덤 크래시 재현 기능 |
-| **기타** | 버텍스 셰이더에 **그람슈미트 직교화** 추가, 한글 경로 처리, `DrawTextBlock`이 매 호출마다 생성/파괴되던 문제 수정 |
+| **기타** | 스키닝·보간을 거치며 어긋난 **탄젠트를 노말 기준으로 재직교화**(그람-슈미트), 한글 경로 처리, `DrawTextBlock`이 매 호출마다 생성/파괴되던 문제 수정 |
 
 **주요 파일** `Mundi/Source/Runtime/Engine/Components/SkinnedMeshComponent.cpp` · `Mundi/Source/Runtime/RHI/GPUTimer.cpp/h` · `Mundi/Source/Slate/Windows/SViewerWindow.cpp` · `Mundi/Source/Slate/StatsOverlayD2D.cpp`
 
