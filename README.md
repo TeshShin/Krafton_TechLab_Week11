@@ -13,7 +13,7 @@
 
 **주요 파일** `Mundi/Source/Runtime/Engine/Components/SkinnedMeshComponent.cpp` · `Mundi/Source/Runtime/RHI/GPUTimer.cpp/h` · `Mundi/Source/Slate/Windows/SViewerWindow.cpp` · `Mundi/Source/Slate/StatsOverlayD2D.cpp`
 
-→ **[내 커밋 65건 보기](https://github.com/TeshShin/Krafton_TechLab_Week11/commits?author=TeshShin)** · [14주 전체 정리](https://github.com/TeshShin/Krafton-TechLab-Roles)
+→ **[내 커밋 65건 보기](https://github.com/TeshShin/Krafton_TechLab_Week11/commits?author=TeshShin)** · [주차 학습 노트](https://app.notion.com/p/teshstudy/11-Animation-GPU-Skinning-MiniDump-2ab78d59866f80e6907dd4f429a1818e) · [14주 전체 정리](https://github.com/TeshShin/Krafton-TechLab-Roles)
 
 ---
 
